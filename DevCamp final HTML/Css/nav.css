@@ -1,0 +1,99 @@
+.header-nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    padding: 5px 20px;
+    background-color: black;
+    color: white;
+}
+.header-nav-bar > .codepen-logo img {
+    width: 180px;
+    height: 30px;
+    align-items: center;
+}
+
+.header-nav-bar > .nav-words {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.header-nav-bar > .nav-words > .explore p {
+    color: #ffdd40;
+    text-transform: uppercase;
+    line-height: 0px;
+    font-size: 0.8em;
+    font-weight: 500;
+    font-family: 'lato condensed', sans-serif;
+    
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0px 0px 10px 0px;
+    width: 350px;
+    font-family: 'lato condensed', sans-serif;
+    font-weight: 900;
+}
+
+.nav-wrapper > .nav a {
+    font-family: 'lato' sans-serif;
+    font-weight: 900;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav-wrapper > .nav-wrapper a:hover {
+    color: #5a5f76;
+}
+
+.create-spark > .create-spark-button {
+    background-color: black;
+    border: none;
+    color: grey;
+    font-size: 1em;
+    padding-left: 20px;
+}
+.create-spark > .create-spark-button:hover {
+    color: aqua;
+    letter-spacing: 0.5px;
+}
+
+.search-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.search-buttons > .buttons button {
+    background-color: #3D3E43;
+    color: white;
+    padding: 18px 24px;
+    margin: 0 10px 0 0;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.search-buttons > .buttons > .search {
+    background-color: black;
+    color: white;
+}
+.search-buttons > .buttons > .search i {
+    color: #444857;
+    font-size: 30px;
+}
+
+.search-buttons > .buttons > .create i {
+    color: #47cf73;
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+    left: 5px;
+}
+/*Falta arreglos en las formas y tamaños de las letras de explore etc...*/

@@ -1,0 +1,70 @@
+@media (max-width: 615px) {
+    .header-nav-bar {
+        flex-direction: column;
+        height: 100%;
+    }
+    .header-nav-bar > .codepen-logo {
+        order: 1;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    .header-nav-bar > .nav-words {
+        order: 2;
+        width: 100%;
+    }
+    .header-nav-bar > .search-buttons {
+        order: 3;
+        margin: 15px;
+    }
+    .nav-wrapper {
+        flex-direction: column;
+    }
+    .explore {
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .nav-words > .nav-wrapper {
+        margin-top: 10px;
+        font-size: 1.5em;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .principal-content {
+        height: 950px;
+    }
+    .principal-content > .home-section {
+        height: 100%;
+        flex-direction: column;
+    }
+    .principal-content > .home-section h1 {
+        width: 100%;
+        order: 1;
+    }
+    .principal-content > .home-section h2 {
+        width: 100%;
+        order: 2;
+    }
+    .sign-up-action {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        order: 3;
+    }
+    .image-promotion {
+        order: 4;
+        height: 100%;
+        width: auto;
+    }
+    .footer-wrapper {
+        flex-direction: column;
+    }
+
+
+
+
+
+
+
+
+}

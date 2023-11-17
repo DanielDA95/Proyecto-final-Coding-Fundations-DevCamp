@@ -1,0 +1,28 @@
+.footer {
+    height: 100%;
+    background-color: black;
+}
+.footer > .footer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer > .footer-wrapper > .code-pen {
+    background-color: #36383f; 
+    border: 2px solid #4e4f52;
+    padding: 15px 120px;
+}
+.footer > .footer-wrapper > .code-pen a {
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    white-space: nowrap;
+    font-size: 1.125em;
+    font-weight: 900;
+}
+.footer > .footer-wrapper > .code-pen span {
+    
+    font-size: 1.5rem;
+    font-weight: 900;
+    font-family: 'Sen', sans-serif;
+}
